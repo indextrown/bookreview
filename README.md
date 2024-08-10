@@ -34,3 +34,13 @@ git commit -m "초기 프로젝트 세팅"
 
 # Push to remote repository
 git push -u origin main
+```
+
+### 2. Install necessary libraries
+
+Add the required Flutter packages using the following command:
+
+```bash
+flutter pub add bloc flutter_bloc go_router equatable
+
+```

@@ -44,3 +44,18 @@ Add the required Flutter packages using the following command:
 flutter pub add bloc flutter_bloc go_router equatable
 
 ```
+
+### 3.  Make folder assets
+
+Create the necessary assets folder 
+
+### 4. Modify `pubspec.yaml` file
+
+Edit the `pubspec.yaml` file to include the following `assets` configuration. Ensure to uncomment the related lines:
+
+```yaml
+flutter:
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/svg/icons/
